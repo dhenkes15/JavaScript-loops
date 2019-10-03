@@ -31,7 +31,9 @@ print('2nd Loop:');
 text = '';
 
 // Write 2nd loop here:
-
+for ( i = 1; i <= 5; i += 1) {
+  text += i + ' ';
+}
 
 print(text); // Should print `1 2 3 4 5 `.
 
@@ -41,7 +43,9 @@ print('3rd Loop:');
 text = '';
 
 // Write 3rd loop here:
-
+for ( i = 5; i > 0; i -= 1) {
+  text += i + ' ';
+}
 
 print(text); // Should print `5 4 3 2 1 `.
 
@@ -51,7 +55,9 @@ print('4th Loop:');
 text = '';
 
 // Write 4th loop here:
-
+for ( i = 5; i <= 50; i += 5) {
+  text += i + ' ';
+}
 
 print(text); // Should print `5 10 15 20 25 30 35 40 45 50 `.
 
@@ -61,7 +67,9 @@ print('5th Loop:');
 text = '';
 
 // Write 5th loop here:
-
+for ( i = 50; i >= 5; i -= 5) {
+  text += i + ' ';
+}
 
 print(text); // Should print `50 45 40 35 30 25 20 15 10 5 `.
 
