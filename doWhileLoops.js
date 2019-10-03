@@ -21,10 +21,10 @@ text = '';
 
 // Write 1st loop here:
 i = 0;
-while ( i < 5 ) {
+do {
   text += i + " ";
   i += 1;
-}
+} while ( i < 5 )
 
 print(text); // Should print `0 1 2 3 4 `.
 
@@ -35,10 +35,10 @@ text = '';
 
 // Write 2nd loop here:
 i = 1;
-while ( i < 6 ) {
+do {
   text += i + " ";
   i += 1;
-}
+} while ( i < 6 )
 
 print(text); // Should print `1 2 3 4 5 `.
 
@@ -49,10 +49,10 @@ text = '';
 
 // Write 3rd loop here:
 i = 5;
-while ( i > 0 ) {
+do {
   text += i + " ";
   i -= 1;
-}
+} while ( i > 0 )
 
 print(text); // Should print `5 4 3 2 1 `.
 
@@ -63,10 +63,10 @@ text = '';
 
 // Write 4th loop here:
 i = 5;
-while ( i <= 50 ) {
+do {
   text += i + " ";
   i += 5;
-}
+} while ( i <= 50 )
 
 print(text); // Should print `5 10 15 20 25 30 35 40 45 50 `.
 
